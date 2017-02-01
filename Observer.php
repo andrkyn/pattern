@@ -2,14 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: andrey
- * Date: 01.02.17
+ * Date: 29.01.17
  * Time: 9:45
  */
 interface IObserver
 {
     function onChanged( $sender, $args );
 }
-
+// comment from win_user
 // comment from win_user 222 to conflict
 class UserListLogger implements IObserver
 {
