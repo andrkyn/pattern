@@ -9,7 +9,8 @@ interface IObserver
 {
     function onChanged( $sender, $args );
 }
-
+// comment from win_user
+// comment from win_user 222 to conflict
 class UserListLogger implements IObserver
 {
     public function onChanged( $sender, $args )
