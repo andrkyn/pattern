@@ -10,7 +10,8 @@ interface IObservable
 {
     function addObserver( $observer );
 }
-
+// this comment from master1
+// my comment two from master 1
 class UserList implements IObservable
 {
     private $_observers = array();
